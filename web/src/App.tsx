@@ -41,8 +41,8 @@ export function App() {
             />
             <Textarea
               placeholder="Resultado gerado pela IA..."
-              readOnly
               className="resize-none p-4 leading-relaxed"
+              readOnly
             />
           </div>
 
@@ -52,6 +52,7 @@ export function App() {
             prompt para adicionar o conteúdo da transcrição do vídeo selecionado
           </p>
         </section>
+        
         <aside className="w-80 space-y-6">
           <form className="space-y-6">
             <label
